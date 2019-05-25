@@ -31,7 +31,7 @@ class MainGUI(QWidget):
         self.loginLayout.addWidget(self.loginErrLabel, 3, 1)
 
         self.authorInfo = QLabel("Origami404 @ github")
-        self.githubUrl = QLabel("https://github.com/Origami404/CommandZhixue")
+        self.githubUrl = QLabel("https://github.com/Origami404/ZhixueApp.git")
         self.sign = QLabel("考试快乐~ QwQ")
 
         self.infoLayout = QGridLayout()
